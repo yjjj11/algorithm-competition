@@ -1,0 +1,1 @@
+{"name":"Local: 工程规划","url":"c:\\Users\\杨佳杰\\OneDrive\\桌面\\code\\c语言\\模板\\图论\\拓扑排序\\工程规划.cpp","tests":[{"id":1728982617615,"input":"5 8\n1 2 0\n1 5 -1\n2 5 1\n3 1 5\n4 1 4\n4 3 -1\n5 3 -1\n5 4 -3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\杨佳杰\\OneDrive\\桌面\\code\\c语言\\模板\\图论\\拓扑排序\\工程规划.cpp","group":"local","local":true}

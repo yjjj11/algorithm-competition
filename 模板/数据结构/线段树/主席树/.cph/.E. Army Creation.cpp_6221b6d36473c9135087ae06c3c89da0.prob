@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"d:\\program\\code\\c语言\\模板\\数据结构\\线段树\\主席树\\E. Army Creation.cpp","tests":[{"id":1732773520387,"input":"6 2\n1 1 1 2 2 2\n5\n1 6\n4 3\n1 1\n2 6\n2 6\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\program\\code\\c语言\\模板\\数据结构\\线段树\\主席树\\E. Army Creation.cpp","group":"local","local":true}

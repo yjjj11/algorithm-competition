@@ -1,0 +1,1 @@
+{"name":"Local: 消息扩散","url":"c:\\Users\\杨佳杰\\OneDrive\\桌面\\code\\c语言\\模板\\图论\\强连通分量\\消息扩散.cpp","tests":[{"id":1730186044181,"input":"5 4\n1 2\n2 1\n2 3\n5 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\杨佳杰\\OneDrive\\桌面\\code\\c语言\\模板\\图论\\强连通分量\\消息扩散.cpp","group":"local","local":true}

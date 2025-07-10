@@ -1,0 +1,67 @@
+1.  s.substr(i,n)从i起取n个字符
+
+2.	string str：生成空字符串                                                           string str1;               //生成空字符串
+
+3.	string s(str)：生成字符串为str的复制品   string str2("123456789");  //生成"1234456789"的复制品
+
+4.	string s(str, strbegin,strlen)：将字符串str中从下标strbegin开始、长度为strlen的部分作为字符串初值                                  string str3("12345", 0, 3);//结果为"123"
+
+5.	string s(cstr, char_len)：以C_string类型cstr的前char_len个字符串作为字符串s的初值                                        string str4("012345", 5);  //结果为"01234"
+
+6.	string s(num ,c)：生成num个c字符的字符串                                     string str5(5, '1');       //结果为"11111"
+
+7.	string s(str, stridx)：将字符串str中从下标stridx开始到字符串结束的位置作为字符串初值                               string str6(str2, 2);      //结果为"3456789"
+ 
+8.	string s1；
+    // 尾插一个字符
+    s1.push_back('a');
+    s1.push_back('b');
+    s1.push_back('c');
+    cout<<"s1:"<<s1<<endl; // s1:abc
+
+    // insert(pos,char):在制定的位置pos前插入字符char       //前插
+    s1.insert(s1.begin(),'1');
+    cout<<"s1:"<<s1<<endl; // s1:1abc
+
+9.	string s = "ABCDEFG";
+
+    for( int i = 0; i < s.size(); i++ )
+    {
+        s[i] = tolower(s[i]);                               //转大小写时要一个一个的转
+    }
+
+10.cout << s.find("chicken") << endl;                  //查找的到则返回第一个下标，找不到返回-1；//从前往后找
+     cout << s.rfind("chicken") << endl;                  //查找的到则返回第一个下标，找不到返回-1；//从后往前找
+   
+11.string s = "cdefba";
+    sort(s.begin(),s.end());
+    cout<<"s:"<<s<<endl;     // 结果：abcdef               //将一个字符按字典序排序
+   
+12.lower_bound( )和upper_bound( )都是利用二分查找的方法在一个排好序的数组中进行查找的。
+
+   // 在从小到大的排序数组中，
+
+    lower_bound( begin,end,num)：从数组的begin位置到end-1位置二分查找第一个大于或等于num的数字，找到返回该数字的地址，不存在则返回end。通过返回的地址减去起始地址        begin,得到找到数字在数组中的下标。
+
+    upper_bound( begin,end,num)：从数组的begin位置到end-1位置二分查找第一个大于num的数字，找到返回该数字的地址，不存在则返回end。通过返回的地址减去起始地址begin,得   到找到数字在数组中的下标。
+
+
+    例如；；；；；；
+    int pos1=lower_bound(num,num+6,7)-num;
+
+    //在从大到小的排序数组中，重载lower_bound()和upper_bound()
+
+    lower_bound( begin,end,num,greater<type>() ):从数组的begin位置到end-1位置二分查找第一个小于或等于num的数字，找到返回该数字的地址，不存在则返回end。通过返回的地址减去起始地址begin,得到找到数字在数组中的下标。
+
+    upper_bound( begin,end,num,greater<type>() ):从数组的begin位置到end-1位置二分查找第一个小于num的数字，找到返回该数字的地址，不存在则返回end。通过返回的地址减去起始地址begin,得到找到数字在数组中的下标。
+
+     例如；；；；；
+    int pos3=lower_bound(num,num+6,7,greater<int>())-num; 
+
+   	 
+    	
+    	
+    	
+    	
+    	
+
